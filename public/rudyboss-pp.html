@@ -53,8 +53,7 @@
 		#welcome {
 			position: absolute;
 			top: 10%;
-margin:5px;
-			
+            margin:5px;
 			font-weight: 200;
 			color: #fff;
 			opacity: 0.65;
@@ -64,12 +63,36 @@ margin:5px;
 			letter-spacing: 0.135em;
 			word-spacing: -0.075rem;
 		}
+        
+            @media screen and (min-width:600px) {
+              #logo {
+                    font-size: 1.4rem;
+              }
+                #welcome
+                {
+                    font-size: 0.775rem;
+                }
+            }
+        
+            @media screen and (min-width:768px) {
+              #logo {
+                  font-size: 1.7rem;
+              }
+                #welcome
+                {
+                    font-size: 0.875rem;
+                }
+            }
 
-		@media screen and (max-width: 400px) {
-			#welcome {
-				font-size: 0.45rem !important;
-			}
-		}
+            @media screen and (min-width:992px) {
+              #logo {
+                font-size: 2rem;
+              }
+                #welcome
+                {
+                    font-size: 0.905rem;
+                }
+            }
 
 		#browserWidthNotice {
 			font-style: italic;
