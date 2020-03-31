@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Cricket Stories Privacy Policy</title>
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#060b14">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#060b14">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#060b14">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width, minimal-ui">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+	<meta name="description" content="This page describes the Cricket Story App/Skill's Privacy Policy">
+	<style>
+		* {
+			padding: 0;
+			margin: 0;
+		}
+
+		html, body {
+			background: #060b14;
+			overflow: hidden;
+			font-family: "Helvetica Neue", "Open Sans";
+			font-weight: 100;
+			height: 100%;
+			width: 100%;
+		}
+
+		a {
+			color: #f3a245;
+			text-decoration: none;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
+
+		#container {
+			perspective: 50px;
+			-webkit-perspective: 50px;
+			-moz-perspective: 50px;
+			-ms-perspective: 50px;
+
+			transform-origin: 50% 100%;
+			-webkit-transform-origin: 50% 100%;
+			-moz-transform-origin: 50% 100%;
+			-ms-transform-origin: 50% 100%;
+
+			opacity: 0.55;
+		}
+
+		#welcome {
+			position: absolute;
+			top: 10%;
+			margin: 5px;
+
+			font-weight: 200;
+			color: #fff;
+			opacity: 0.65;
+			text-align: center;
+			font-size: 0.775rem;
+			line-height: 1.05rem;
+			letter-spacing: 0.135em;
+			word-spacing: -0.075rem;
+		}
+
+		@media screen and (min-width:600px) {
+			#logo {
+				font-size: 1.4rem;
+			}
+
+			#welcome {
+				font-size: 0.775rem;
+			}
+		}
+
+		@media screen and (min-width:768px) {
+			#logo {
+				font-size: 1.7rem;
+			}
+
+			#welcome {
+				font-size: 0.875rem;
+			}
+		}
+
+		@media screen and (min-width:992px) {
+			#logo {
+				font-size: 2rem;
+			}
+
+			#welcome {
+				font-size: 0.905rem;
+			}
+		}
+
+		#browserWidthNotice {
+			font-style: italic;
+			display: none;
+		}
+
+		#logo {
+			position: fixed;
+			right: 0.75rem;
+			bottom: 0.65rem;
+
+			cursor: pointer;
+
+			text-decoration: none;
+			color: #d6d6d6;
+			font-size: 2rem;
+			letter-spacing: 0.025em;
+			font-family: "Gloria Hallelujah";
+
+		}
+
+		#logoDot {
+			color: #d74580;
+		}
+
+		.dot {
+			position: fixed;
+			width: 30px;
+			height: 30px;
+
+			border-radius: 30px;
+			background-color: #f3a245;
+		}
+
+		.type2 {
+			background-color: #f3a245;
+
+		}
+
+		.type3 {
+			background-color: #f3a245;
+
+		}
+
+		.type4 {
+			background-color: #f3a245;
+
+		}
+	</style>
+</head>
+
+<body>
+	<div id="welcome">
+		<h1>Privacy Policy and Terms Of Service</h1>
+		<br><br><br>
+        <p><b>Glagotias Attendance Checker</b> (<a href="https://gu-attendance.darshan.ninja" target="_blank">https://gu-attendance.darshan.ninja</a>) 
+            is a student-run "unofficial" online webapp for the students of Galgotias University. This webapp is intended to be used to recieve
+            a daily automated notification of their attendance status. The Data entered by students is highly critical and the following privacy policy 
+            defines how we use this.</p>
+		<br>
+		<br>
+		<br>
+		<h3>What information we collect</h3>
+		<br>
+		<p>
+            For the optimal working of the application, Galgotias Attendance Checker collects your college Admission Number and the password that
+            is used to "login" into rfCampus. These two are the minimal requirement for the functioning of the app.
+            Apart from this we also ask for an email - which can be any email and is not verified for your privacy. You can absolutely go ahead
+            and fill "<i>NA</i>" in the email field. 
+            We do not store any local cookies on your device other than <a href="https://analytics.google.com">Google Analytics</a>. & <a href="http://cloudflare.com/">Cloudflare</a>. cookies.
+		</p>
+		<Br>
+		<br>
+		<h3>How do we use the information</h3>
+		<Br>
+		<p>
+            Your password and admission number are mission critical resources whenever the scheduler for notification runs (Generally at 07:00pm IST). We use this to make API Request 
+            to rfCampus. Three types of API calls are made by the app before sending a notification. These include 'Login Call', 'Call for Subject List', 'Call(s) for Individual Subject Attendance'.
+			UNDER ANY CIRCUMSTANCE WE DO NOT MAKE ANY OTHER API CALL. The sole purpose of this app is attendance staus and it makes only those required calls. 
+			<br>
+			Emails collected maybe used to send occasional mails and updates about my projects. No information collected is shared/sold under any circumstances.
+        </p>
+		<Br>
+		<br>
+		<h3>How do we store your information</h3>
+		<Br>
+		<p>
+            We understand your data is highly crucial. That's why this Privacy Policy exist. This is how your data is stored and fetched at various stages:
+                <br>1. The complete website is end to end secured with HTTPS connection by Cloudflare and Firebase Hosting.
+                <br>2. The password is not sent via a "normal" https call. Firebase SDK's HTTPS onCall functions are used to ensure the highest possible level of data 
+                    protection by the app.
+				<br>3. We maintain multiple database for the app. Your data is stored in noSQL database which has all the HTTPS/HTTP ports closed. This means the database,
+					is not accessible via the internet. It is only accessible via the server application within Google Cloud's infrastructure.
+				<br>4. The client side database does not store any crucial information.
+				<br>5. All the databases are encrypted at server side.
+				<br>6. During loging, it is ensured that only your unique (server-generated) user id is logged.
+            <br><br>
+            Doubts or just wanna chat? Shoot a mail to <a href="mailto:hey@darshanbaid.com">hey@darshanbaid.com</a> or DM me on Insta <a href="//instagram.com/darshanbaid22" target="_blank">@darshanbaid22</a>
+        </p>
+	</div>
+	<a id="logo" href="index.html">darshan
+		<span id="logoDot">.</span>ninja</a>
+	<div id="container"></div>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	 crossorigin="anonymous"></script>
+	<script>
+		(function (i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function () {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-74048690-3', 'auto');
+		ga('send', 'pageview');
+	</script>
+</body>
+
+</html>
